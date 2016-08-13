@@ -31,7 +31,7 @@ case `uname` in
 esac
 
 GITREPO=${GITREPO:-"git://github.com/kskarthik/b2g-manifest"}
-BRANCH=${BRANCH:-master}
+BRANCH=${BRANCH:-b2g/cm-12.1-YOG7D}
 
 while [ $# -ge 1 ]; do
 	case $1 in
